@@ -1,0 +1,40 @@
+//Riduan Állef
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro sanduiche,pessoa, pao, presunto , queijo , total
+
+		escreva("-------- FESTA DE ANIVERSÁRIO DO CRISTIANO RONALDO --------")
+		escreva("\n\nlista de comidas e bebidas")
+		escreva("\n\n[1] - Sanduiche")
+          escreva("\n\n[2] - PIZZAS")
+          escreva("\n\n[3] - COCA - COLA")
+          escreva("\n\n[4] - SUCOS")
+
+         escreva("\n\nQuantas pessoas irão participar da festa?")
+         leia(pessoa)
+
+         sanduiche = pessoa
+
+         escreva("\nVocê precisará de um total de ", sanduiche, "Sanduiches para essa festa!")
+         escreva("\n\nCADA SANDUICHE É COMPOSTO POR: ")
+         escreva("\n2 fatias pão")
+         escreva("\n1 fatia de presunto")
+         escreva("\n1 fatia de queijo")
+
+         pao = sanduiche * 2
+         presunto = sanduiche * 1
+         queijo = sanduiche * 1
+
+         escreva("\n\nLOGO VOCÊ IRÁ PRECISAR DE UM TOTAL DE:")
+	    escreva("\n", pao , " fatias de pão!")
+	    escreva("\n", presunto , " fatias de presunto!")
+	    escreva("\n", queijo , " queijos!")
+
+	    total = pao + presunto + queijo
+	    escreva("\n\nTOTAL DE INGREDIENTES: "  , total)
+            
+	}
+}

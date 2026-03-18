@@ -1,0 +1,26 @@
+//RIDUAN ÀLLEF
+programa
+{
+	
+	funcao inicio()
+	{
+		real litroDia, economiaDia, economiaTotal
+
+		escreva("------ Águas Rio Preto Da eva ------")
+		escreva("\n\n-Boa tarde, prazer meu nome é Dyego, ")
+		escreva("\nestou aqui para lhe mostrar quanto de água você irá economizar em um mês!")
+		escreva("\n-Mas antes, preciso de algumas informações: ")
+
+		escreva("\n\n-Quantos litros de água você usa durante o dia?: ")
+		leia(litroDia)
+
+		escreva("\n-OK, agora me infome quantos litros você pretende economizar por dia: ")
+		leia(economiaDia)
+
+		escreva("\nPROCESSANDO....")
+
+		economiaTotal = economiaDia * 30
+		escreva("\n-Amigo, você irá economizar", economiaTotal, "litros em um mês!!")
+		escreva("\nObrigado por usar nosso sistema!")
+	}
+}

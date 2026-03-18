@@ -1,0 +1,34 @@
+//RIDUAN ÁLLEF
+programa
+{
+	
+inclua biblioteca Matematica-->mat
+	funcao inicio()
+	{
+		real valor, arredonda
+		inteiro pessoas
+
+		escreva("------ RESTAURANTE DA NOVA IGREJA BATISTA ------")
+		escreva("\n\n-Bom dia meu amigo me chamo alfredo, o melhor atendente daqui! ")
+		escreva("\nestou aqui para ajudar a dividar a conta igualmente para todos!")
+		escreva("\n-mas antes, preciso de algumas informções:")
+
+		escreva("\n\n-Quanto deu o valor total da conta?: R$")
+		leia(valor)
+
+		escreva("\n-OK, agora me informe quantas pessoas estão com você: ")
+		leia(pessoas)
+
+		escreva("\nPROCENSSANDO....")
+
+		se(pessoas <= 0){
+			escreva("\nError: número de pessoas invalido!")
+		}senao{
+			arredonda = mat.arredondar(valor/pessoas , 2)
+			escreva("\n-Cada pessoa presente nesta mesa irá pegar o valor de R$", arredonda,"!!")
+			escreva("\n-Obrigado por usar o sistema da Nova Igreja Batista!")
+			
+			
+		}
+	}
+}

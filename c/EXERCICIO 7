@@ -1,0 +1,30 @@
+//RIDUAN ÁLLEF
+programa
+{
+	
+	
+		
+	inclua biblioteca Matematica-->mat
+	funcao inicio()
+	{
+		real reais, taxa, arredonda
+		
+		escreva("----- BANCO SANTANDER -----")
+		escreva("\n\n-Bom dia/ boa tarde/boa noite, me chamooo AAALLEF")
+		escreva("\nestou aqui para converter os seus reais para dolar!!")
+		escreva("\n-Mas antes, preciso de algumas informações:")
+
+		escreva("\n\n-Primeiro, quantos reais você irá converter: R$")
+		leia(reais)
+
+		escreva("\n-OK, agora me informe qual é a taxa de câmbio do dolar: R$ ")
+		leia(taxa)
+
+		arredonda = mat.arredondar(reais / taxa, 2)
+		
+		escreva("\n-PROCESSANDO...")
+		escreva("\n-Você irá receber $", arredonda, " dolares!")
+		escreva("\n-Obrigado uma bom dia/boa tarde/boa noite!")
+
+	}
+}

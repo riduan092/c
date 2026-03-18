@@ -1,0 +1,31 @@
+//RIDUAN ÁLLEF
+programa
+{
+	
+	funcao inicio()
+	{
+		cadeia nome
+		logico presenca
+		
+		escreva("----- EVENTOS VIVIGUET -----")
+		escreva("\n\n-Bom dia bro me chamo OLAF,")
+		escreva("\nestou aqui para saber se você irá ou não comparecer no evento!!")
+		escreva("\n-Mas antes, preciso de algumas informações:")
+
+		escreva("\n\n-Primeiro, qual o seu nome?: ")
+		leia(nome)
+
+		escreva("\n-OK, é verdade que você irá comparecer no evento(verdadeiro ou falso)?: ")
+		leia(presenca)
+
+		escreva("\n-PROCESSANDO...")
+		se(presenca){
+			escreva("\n- que bom que você irá comparecer ",nome,". Irei ficar esperando por você!!")
+			escreva("\n-Obrigado por usar o sistema do GabGab!")
+		}senao{
+			escreva("\n- que pena que você não poderá comparecer no evento ",nome,", mas tudo bem , tenha um bom dia!!")
+			escreva("\n-Obrigado, até mais!")
+		}
+
+	}
+}
